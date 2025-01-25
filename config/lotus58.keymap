@@ -112,7 +112,7 @@
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4                  &out OUT_TOG  &out OUT_USB  &out OUT_BLE  &trans      &sys_reset  &bootloader
 &trans      &kp INS          &kp PSCRN        &kp K_CMENU      &sys_reset    &trans                        &kp PG_UP     &trans        &kp UP        &trans      &trans      &trans
-&trans      &kp LALT         &kp LCTRL        &kp LSHFT        &bootloader   &kp CLCK      &trans  &trans  &kp PG_DN     &kp LEFT      &kp DOWN      &kp RIGHT   &kp DEL     &kp BSPC
+&trans      &bl BL_TOG       &bl BL_INC       &bl BL_DEC       &bootloader   &kp CLCK      &trans  &trans  &kp PG_DN     &kp LEFT      &kp DOWN      &kp RIGHT   &kp DEL     &kp BSPC
 &trans      &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp K_PASTE   &trans        &trans  &trans  &trans        &kp C_PP      &kp C_PREV    &kp C_NEXT  &trans      &trans
                                               &trans           &trans        &trans        &trans  &trans  &trans        &trans        &trans
             >;
